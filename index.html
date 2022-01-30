@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <title>Sterling&rsquo;s Hammer</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                color: saddlebrown;
+                font-family: 'Lora', serif;
+            }
+
+            body {
+                background-color: bisque;
+                margin: 20px 40px;
+            }
+
+            article {
+                height: calc(100vh - 80px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                max-width: 700px;
+                margin: auto;
+            }
+
+            article > img {
+                display: block;
+                width: 80vw;
+                margin: 10px;
+                max-width: 250px;
+                filter: invert(26%) sepia(66%) saturate(869%) hue-rotate(349deg) brightness(97%) contrast(93%);            }
+
+            article > h1 {
+                font-size: 48pt;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            article > h1 > span {
+                font-size: 22pt;
+                font-weight: 400;
+                font-style: italic;
+            }
+
+            article > p {
+                font-size: 14pt;
+                text-align: center;
+            }
+
+            .credit-line {
+                margin-top: 40px;
+                font-size: 10pt;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <img src="./hammer.png" alt="Hammer" />
+            <h1>Sterling&rsquo;s Hammer <span>(n.)</span></h1>
+            <p>1. the situtation where something is useful but not necessarily valuable, as a hammer is useful for driving a nail but not essential as other items can effectively take its place</p>
+            <p class='credit-line'>Coined in <time datetime="2022-01-30T00:00:00">January 2022</time> by Sterling M. Kleist, Material Scientist, Eau Claire, Wis., U.S.A.<br />Email <a href="mailto:media@sterlingshammer.net">media@sterlingshammer.net</a> for more information.</p>
+    </body>
+</html>
